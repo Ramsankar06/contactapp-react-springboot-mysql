@@ -25,6 +25,7 @@ public class ContactController {
     private ContactService contactService;
 
     @GetMapping
+    
     public List<Contact> getContact(){
         return contactService.getAllContacts();
     }
